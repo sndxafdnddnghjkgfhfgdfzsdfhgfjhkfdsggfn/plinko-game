@@ -12,7 +12,7 @@ test.describe('Balance', () => {
     await page.goto('/');
 
     await page.getByRole('button', { name: 'Add' }).click();
-    await page.getByRole('button', { name: '+$1000' }).click();
+    await page.getByRole('button', { name: '+$1000000' }).click();
     await expect(page.getByText('1,200.00')).toBeVisible();
   });
 
