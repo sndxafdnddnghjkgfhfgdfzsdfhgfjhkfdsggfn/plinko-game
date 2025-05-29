@@ -57,8 +57,5 @@
   },
   "type": "module"
 }
-{
-  "scripts": {
-    "build": "[my-framework] build --output public"
-  }
+
 }
